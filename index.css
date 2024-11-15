@@ -1,0 +1,392 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#gogo-header {
+    width: 100vw;
+    height: 88.917px;
+    display: flex;
+    justify-content: center;
+}
+
+#uk-container {
+    max-width: 1100px;
+    height: 88.917px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#uk-navbar-left {
+    width: 745.336px;
+    height: 39.91px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#uk-navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 556.336px;
+    height: 22px;
+}
+
+.uk-inline {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+}
+
+/* hover-1 */
+
+.container-div {
+    position: relative;
+}
+
+.hide {
+    display: none;
+    position: absolute;
+    top: 38px;
+    background-color: white;
+    border: 1px solid rgb(194, 190, 190);
+    box-shadow: #007aff;
+    border-radius: 5px;
+}
+
+.hide-text {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 2;
+    -webkit-text-size-adjust: 100%;
+    list-style-type: #007aff;
+}
+
+.uk-inline:hover+.hide {
+    display: flex;
+}
+
+.uk-inline:hover {
+    opacity: 0.7;
+}
+
+
+/* ???? yagaaad bolkuennaa ???? */
+#uk-navbar-item.search {
+    width: 50px;
+    height: 24.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#uk-navbar-right {
+    width: 270.523px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 84.31px;
+}
+
+.uk-text-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-right {
+    line-height: 20px;
+    font-size: 12px;
+}
+
+/* hover-2 */
+
+.hover-2 {
+    position: relative;
+}
+
+.hide-2 {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    width: 100px;
+    height: 30px;
+    background-color: gray;
+    border-radius: 2px;
+    justify-content: center;
+    align-items: center;
+    z-index: 7;
+}
+
+.hide-2-text {
+    font-size: 12px;
+    line-height: 20px;
+    color: white;
+}
+
+.hover-2:hover .hide-2 {
+    display: flex;
+}
+
+.uk-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.uk-info-number {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: right;
+}
+
+/* Main */
+
+/*----- highlights section ----- */
+
+#highlights-section {
+    width: 100vw;
+    height: 763px;
+    background: linear-gradient(180deg, #fff, #f7f7f7);
+    ;
+    display: flex;
+    justify-content: center;
+}
+
+#highlights-container {
+    width: 1100px;
+    height: 763px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 15px;
+}
+
+#highlights-news1 {
+    width: 1100px;
+    height: 385px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #f4f4f4 7%, hsla(0, 0%, 100%, .220348) 17%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#news1-text {
+    width: 502.5px;
+    height: 228px;
+    margin-left: 40px;
+    border: 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#buss-button {
+    width: 73.03px;
+    height: 30px;
+    background: linear-gradient(129deg, #c40097, #d6710b);
+    background-image: linear-gradient(-120deg, #e08100, #c90027);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    color: white;
+}
+
+#buss-button:hover {
+    width: 85px;
+    transition: 0.3s;
+}
+
+#news1-title {
+    line-height: 36px;
+    font-size: 26px;
+    margin: 0;
+}
+
+#news1-desc {
+    opacity: 0.4;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    margin: 0;
+}
+
+#news1-main:hover #news1-title {
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.share-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 56.35px;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    height: 36px;
+    background-color: #f0efef;
+    border-radius: 100px;
+}
+
+.icon-share {
+    width: 20.45px;
+    height: 24px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.share-button:hover .icon-share {
+    rotate: 30deg;
+    transition: 0.5s;
+    scale: 1.3;
+}
+
+.share-button:hover {
+    width: 80px;
+    transition: 0.3s;
+}
+
+/* hover-3 */
+
+#news1-img {
+    width: 542.5px;
+    height: 385px;
+    position: relative;
+    overflow: hidden;
+    z-index: 4;
+    border-radius: 5px;
+}
+
+#hide-3 {
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: black;
+}
+
+#hide-3-text {
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+    opacity: 0;
+}
+
+.news-image {
+    width: 542.5px;
+    height: 385px;
+    border-radius: 5px;
+}
+
+#news1-img:hover #hide-3 {
+    opacity: 0.4;
+}
+
+#news1-img:hover #hide-3-text {
+    opacity: 1;
+    transition: 0.8s;
+}
+
+#news1-img:hover .news-image {
+    scale: 1.1;
+    transition: 0.8s;
+}
+
+#highlights-news2 {
+    width: 1100px;
+    height: 283px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.news2 {
+    width: 263px;
+    height: 283px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.news2-img {
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+
+
+
+.news2-icon-share {
+    width: 23.84px;
+    height: 22px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    opacity: 0.3;
+    font-size: 13px;
+    line-height: 1;
+}
+
+
+#banner {
+    width: 263px;
+    height: 270px;
+}
+
+/* ------- Story section -------- */
+
+#story-section {
+    width: 1100px;
+    height: 280.5px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+#story-title {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+#story-main {
+    width: 1100px;
+    height: 235px;
+    display: flex;
+    flex-direction: row;
+}
+
+.story {
+    width: 170.8px;
+    height: 235px;
+    border: 1px solid red;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.see-result {
+    display: flex;
+    flex-direction: row;
+}
